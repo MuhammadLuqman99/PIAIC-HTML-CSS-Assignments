@@ -1,0 +1,33 @@
+html {
+  font-size: 62.5%;
+}
+.main {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 10rem;
+}
+.card {
+  width: 30rem;
+  box-shadow: 5px 10px rgb(211, 211, 211);
+}
+.card > img {
+  width: 30rem;
+  height: 20rem;
+}
+.inerdiv {
+  padding: 2rem;
+}
+.inerdiv button {
+  background: rgb(122, 122, 255);
+  border-radius: 0.5rem;
+  color: white;
+  padding: 1rem;
+}
+.heading {
+  font-size: 3rem;
+}
+.para{
+    font-size: 1.4rem;
+    color: rgb(32, 32, 32);
+}

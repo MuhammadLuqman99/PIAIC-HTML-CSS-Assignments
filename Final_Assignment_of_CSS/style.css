@@ -1,0 +1,421 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+html {
+  font-size: 62.5%;
+}
+.top {
+  background: rgb(48, 46, 46);
+}
+.topContent {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0 2rem;
+  font-size: 1.6rem;
+  color: white;
+  padding: 1rem 0;
+}
+.topContact {
+  display: flex;
+  align-items: center;
+}
+.topContact div {
+  margin-left: 2.5rem;
+}
+.socialIcon {
+  margin-right: 1.6rem;
+  color: white;
+}
+.topButton {
+  margin-left: 2.5rem;
+  background: #15e3a0;
+  border: none;
+  text-transform: uppercase;
+  outline: none;
+  padding: 0.3rem;
+  border-radius: 0.5rem;
+}
+.topButton:hover {
+  background: transparent;
+  color: white;
+  transition: 0.5s;
+}
+.phone {
+  color: #15e3a0;
+}
+
+.nav-center {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-right: 2rem;
+}
+.nav-center ul {
+  list-style-type: none;
+}
+.nav-center ul li {
+  display: inline-block;
+}
+.nav-center ul li a {
+  text-decoration: none;
+  font-size: 2rem;
+  margin-left: 1.6rem;
+  text-transform: uppercase;
+  color: rgb(46, 44, 44);
+}
+
+.nav-center ul li a:hover {
+  color: #15e3a0;
+  transition: 0.5s;
+}
+.nav-center .logo {
+  width: auto;
+  height: 6rem;
+}
+.expert {
+  background: url("img/experts.jpeg");
+  width: 100%;
+  height: 50rem;
+  background-position: center;
+  background-size: cover;
+  opacity: 0.6;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.expertContent {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: white;
+  justify-content: center;
+}
+.expertContent div {
+  margin-top: 5rem;
+}
+.expertContent div h1 {
+  font-size: 5rem;
+  text-transform: uppercase;
+}
+.expertContent div p {
+  font-size: 2rem;
+  width: 80%;
+  text-align: center;
+  margin: auto;
+}
+.expertContent div button {
+  background: #e2c71b;
+  padding: 1rem;
+  text-transform: uppercase;
+  outline: none;
+  border: none;
+  border-radius: 0.5rem;
+  color: black;
+}
+.expertContent div button:hover {
+  background: #293632;
+  color: white;
+  transition: 0.5s;
+}
+.advantagesContent {
+  margin-top: 5rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 1.6rem;
+}
+.advantagesContent > p {
+  width: 50%;
+  text-align: center;
+  margin-top: 1rem;
+  color: rgb(100, 100, 100);
+}
+.advantagesContent h1 {
+  font-size: 5rem;
+  text-transform: uppercase;
+}
+.h1section {
+  color: #15e3a0;
+}
+.advantagesOptions {
+  margin-top: 4rem;
+  display: flex;
+  width: 90%;
+  text-align: center;
+  /* justify-content: center; */
+  /* align-items: center; */
+}
+.advantagesOption {
+  margin: 0 4rem;
+}
+.advantagesOption h3 {
+  margin-top: 2.4rem;
+  text-transform: uppercase;
+}
+.advantagesOption p {
+  color: rgb(100, 100, 100);
+  margin-top: 2.4rem;
+}
+.aicon {
+  color: #15e3a0;
+  font-size: 8rem;
+  background: rgb(241, 241, 241);
+  border-radius: 50%;
+}
+.about {
+  background: url("img/about.jpeg");
+  background-size: cover;
+  background-position: center;
+  margin-top: 2.4rem;
+}
+.about h1 {
+  padding: 5rem;
+  text-align: center;
+  font-size: 5rem;
+  text-transform: uppercase;
+}
+
+.left {
+  margin-left: 2.4rem;
+  width: 40%;
+  font-size: 1.6rem;
+}
+.left > p {
+  margin-bottom: 2.4rem;
+}
+.left button {
+  background: #e2c71b;
+  padding: 1rem;
+  text-transform: uppercase;
+  outline: none;
+  border: none;
+  border-radius: 0.5rem;
+  color: black;
+  margin-bottom: 5rem;
+}
+.left button:hover {
+  background: #293632;
+  color: white;
+  transition: 0.5s;
+}
+.topServices {
+  text-align: center;
+  padding: 5rem;
+}
+.topServices > h1 {
+  font-size: 5rem;
+  text-transform: uppercase;
+}
+.topServices > p {
+  font-size: 1.6rem;
+  margin-top: 2rem;
+}
+.bottomServices {
+  display: flex;
+  text-align: center;
+}
+.bottomService {
+  position: relative;
+  margin: 0 2rem;
+}
+.bcg {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+  margin-top: 2.4rem;
+  border-radius: 1.6rem;
+  background: rgb(194, 194, 194);
+}
+.serviceIcon {
+  color: rgb(233, 84, 84);
+  background: #e2c71b;
+  border-radius: 50%;
+  margin-bottom: 3rem;
+  font-size: 5rem;
+}
+.bottomService h4 {
+  margin-bottom: 2rem;
+  font-size: 2rem;
+  text-transform: uppercase;
+}
+
+.bottomService p {
+  font-size: 1.6rem;
+}
+.bottomService a {
+  font-size: 1.6rem;
+}
+
+.services {
+  margin-bottom: 5rem;
+}
+.portfolio {
+  background: rgb(41, 40, 40);
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.portfolio h1 {
+  font-size: 5rem;
+  text-transform: uppercase;
+  padding: 3rem;
+}
+.portfolio ul {
+  padding: 3rem;
+  list-style-type: none;
+}
+.portfolio ul li {
+  display: inline-block;
+}
+.portfolio ul li a {
+  color: white;
+  padding: 2rem;
+  font-size: 2rem;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+.portfolio ul li a:hover {
+  color: #15e3a0;
+  transition: 0.5s;
+}
+.portfolio p {
+  font-size: 1.4rem;
+  width: 80%;
+}
+.pofgallery {
+  margin-left: 10rem;
+}
+.pofgallery img {
+  width: 35rem;
+  height: 35rem;
+}
+.pofgallery img:hover {
+  opacity: 0.5;
+  transition: 0.5s;
+}
+.process {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+.process h1 {
+  font-size: 5rem;
+  text-transform: uppercase;
+  padding: 3rem;
+  text-align: center;
+}
+.process > p {
+  font-size: 1.4rem;
+  width: 80%;
+  text-align: center;
+}
+.processOptions {
+  display: flex;
+  align-items: center;
+  width: 90%;
+  padding: 5rem 0;
+}
+.processOption {
+  display: flex;
+  flex-direction: column;
+  padding: 2rem;
+}
+.pon {
+  margin-bottom: 2.4rem;
+  font-weight: 900;
+  font-size: 1.7rem;
+}
+
+.processIcon {
+  font-size: 4rem;
+}
+.processOption > .para {
+  font-size: 1.4rem;
+}
+.processOption > .paraa {
+  font-size: 1.6rem;
+  text-transform: uppercase;
+  font-weight: bold;
+  padding: 2rem;
+}
+.newProject {
+  background: #15e3a0;
+  padding: 5rem;
+  color: white;
+  text-align: center;
+}
+.newProject h1 {
+  font-size: 5rem;
+}
+.newProject p {
+  font-size: 2rem;
+  width: 60%;
+  margin-left: 25rem;
+}
+.npinputs {
+  padding: 3rem;
+}
+.npinput {
+  outline: none;
+  border: none;
+  font-size: 1.6rem;
+  padding: 0.5rem;
+}
+.npinputs button {
+  background: #e2c71b;
+}
+.npinputs button:hover {
+  background: #293632;
+  color: white;
+  transition: 0.5s;
+}
+.contacts {
+  text-align: center;
+}
+.contacts h1 {
+  font-size: 5rem;
+  text-transform: uppercase;
+  padding: 3rem;
+  text-align: center;
+}
+.contacts > p {
+  font-size: 1.4rem;
+  width: 80%;
+  /* text-align: center; */
+  margin-left: 10%;
+  padding: 1.6rem;
+}
+.contacts .num {
+  margin-right: 1rem;
+}
+.contacts img {
+  width: 100%;
+  height: 50vh;
+}
+.footer {
+  background: #15e3a0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.fw {
+  padding: 5rem;
+  width: 80%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  font-size: 1.6rem;
+}
+.f1 {
+  display: flex;
+  flex-direction: column;
+}
+.f2 {
+  display: flex;
+  flex-direction: column;
+}
